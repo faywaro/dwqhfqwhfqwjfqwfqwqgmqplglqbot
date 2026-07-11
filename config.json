@@ -1,0 +1,17 @@
+{
+  "telegram_bot_token": "",
+  "telegram_chat_id": "",
+  "lat": 58.0116,
+  "lon": 56.2493,
+  "radius_km": 20.0,
+  "favorites": [
+    "833690595"
+  ],
+  "notify_statuses": [
+    "yes",
+    "queue",
+    "low"
+  ],
+  "check_interval_seconds": 60,
+  "disable_ssl_verify": true
+}
