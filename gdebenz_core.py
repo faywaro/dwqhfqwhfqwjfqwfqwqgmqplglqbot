@@ -214,8 +214,7 @@ def check_once(config):
             continue
 
         status = st.get("status")
-        last_at = st.get("last_at")
-        fingerprint = f"{status}|{last_at}"
+        fingerprint = status
         new_state[osm_id] = fingerprint
 
         if status in notify_statuses and state.get(osm_id) != fingerprint:
